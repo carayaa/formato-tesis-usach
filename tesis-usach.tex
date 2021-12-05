@@ -1,6 +1,7 @@
 \documentclass[coguia]{tesis-usach}
 % Opciones: coguia, propuesta
-
+\usepackage{amsmath}
+\usepackage{changepage}
 \begin{document}
 \baselineskip 23pt
 \frontmatter								% Utiliza numeración romana
@@ -12,6 +13,11 @@
 % ### Páginas preliminares de la tesis ###
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}		% Hace que no aparezca la línea horizontal superior al principio de estas páginas
+\newcommand{\p}[1]{\left( #1 \right)}
+\newcommand{\pc}[1]{\left[ #1 \right]}
+\newcommand{\pb}[1]{\left\lbrace #1 \right\rbrace}
+\newcommand{\pl}[1]{\left| #1 \right|}
+
 \fancyhead[L]{}
 \fancyhead[C]{}
 \fancyhead[R]{}

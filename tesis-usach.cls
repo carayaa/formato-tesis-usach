@@ -16,13 +16,13 @@
 \LoadClass[10pt,oneside,letterpaper]{book}
 
 % Letra Arial
-\usepackage{fontspec}
-\setmainfont{Arial}
+%\usepackage{fontspec}
+%\setmainfont{Arial}
 
 % Letra Arial ShareLatex
-%\usepackage[T1]{fontenc}
-%\usepackage{helvet}
-%\renewcommand{\familydefault}{\sfdefault}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
 
 % Interlineado de 1.5:
 \renewcommand{\baselinestretch}{1.5}
@@ -161,6 +161,9 @@
 	showspaces=false,
 	showstringspaces=false
 }
+
+% Tablas caso de uso
+\usepackage{tabularx}
 
 % Soporte para tablas con color
 \usepackage[table,xcdraw]{xcolor}
